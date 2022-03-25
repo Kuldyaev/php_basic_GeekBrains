@@ -4,4 +4,4 @@
 
 Калькуляторы добавлены на отдельные страницы сайта
 
-![demo](https://github.com/Kuldyaev/memorygame/blob/master/img/demo.gif)  
+![demo](https://github.com/Kuldyaev/php_basic_GeekBrains/blob/lesson6/lesson6/webEStore.png)  

@@ -1,0 +1,83 @@
+ul{
+    list-style-type: none;
+}
+li, #cartHeader{
+    display: flex;
+    margin-bottom: 5px;
+    min-width: 600px;
+    max-width: 90%;
+    min-height: 100px;
+    background-color: white;
+    border: 1px solid grey;;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+.pageName{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.itenImg{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgimg{
+    height: 95px;
+    width: 95px;
+}
+.priceBlock {
+    width: 250px;
+}
+.quantityBlock {
+    width: 180px;
+    margin-left: 10px;
+}
+h5{
+    text-align: center;
+    padding: 0;
+    margin: 5px 0;
+}
+.h70{
+    height: 70px;;
+}
+.h100{
+    height: 100px;;
+}
+.itemTitle{
+    width: 350px;
+    font-size: 25px;
+}
+.deleteBlock{
+    width: 150px;
+}
+.delete{
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+}
+.qBtns{
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
+}
+.deleteBlock{
+    cursor: pointer;
+}
+.title{
+    text-decoration: none;
+    color: darkslategrey;
+}
+.headerItem{
+    height: 100%;
+    width: 33%;
+}
+.headerMiddle{
+    height: 50%;
+    width: 100%;
+}
+.middle{
+    flex-direction: column;
+}

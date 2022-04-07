@@ -1,0 +1,83 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    min-height: 100%;
+}
+body{
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+main{
+    width: 100%;
+    flex-grow: 1;
+}
+header{
+    width: 100%;
+    min-height: 70px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.projectName{
+    margin-left: 10px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+.authBlock{
+    margin-right: 30px;
+    display: flex;
+    min-width: 250px;
+}
+nav{
+    width: 100%;
+    padding-left: 10px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 35px;
+}
+.menuItem{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+footer{
+    flex-shrink: 0;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    min-height: 40px;
+}
+.footerBlock{
+    color: silver;
+    margin-right: 10px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myWeb{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+.orderPlace{
+    margin-right: 10px;
+}
+.leftpart{
+    margin-right: 10px;
+}

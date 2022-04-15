@@ -1,0 +1,53 @@
+.pageName{
+    width: 100%;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardDesk{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.itemCard{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.imgimg{
+    width: 200px;
+    height: 200px;
+    border-bottom: 2px solid grey;   
+}
+.itemLink{
+    color: black;
+    width: 100%;
+    text-decoration: none;
+}
+.itemName, .itemPrice, .buyBtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.buyBtn{
+    min-height: 50px;
+}
+.buy{
+    height: 40px;
+    width: 160px;
+    background-color: grey;
+}
+.buy:hover{
+    background-color: darkgrey;
+    color: white;
+}
+.itemCard:hover{
+    box-shadow: 10px 5px 5px grey;
+}

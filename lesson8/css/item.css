@@ -1,0 +1,81 @@
+.card{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.itemInfoPlace{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.linkBack{
+    margin-left: 5%;
+}
+.itemImgPlace{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.itemInfo{
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.buyBtn{
+    min-height: 50px;
+    margin-top: 15px;
+}
+.buy{
+    height: 40px;
+    width: 160px;
+    background-color: grey;
+}
+.buy:hover{
+    background-color: darkgrey;
+    color: white;
+}
+.feedbackDesk{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.oneFeedback{
+    width: 100%;
+    background-color: white;
+    border: 1px solid grey;
+}
+.feedbackItem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+}
+.feedbackHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+}
+.feedbackAuthor{
+    margin-left: 10px;
+}
+.feedbackDate{
+    margin-right: 10px;
+}
+.feedbackText{
+    padding: 5px 0 5px 10px;
+
+}
+#feedbackHeader{
+    width: 90%;
+    margin-left: 5%;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+}

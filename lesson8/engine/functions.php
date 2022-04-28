@@ -1,5 +1,4 @@
 <?php
-// функции движка сайта
 
 function render($page, $params = [], $layout = 'layout') {
     return renderTemplate(LAYOUTS_DIR . $layout, [

@@ -1,12 +1,35 @@
-<html>
-   <head>
-      <title>Пояснение работы парсера</title>
-   </head>
-   <body>
-      <p>Какой-то наш код для примера</p>
-      <?php 
-      echo "Происходит исполнение скрипта"; 
-      ?>
-      <p>И снова код страницы</p>
-   </body>
-</html>
+<?php
+
+function getArr(): array
+{
+	return _randArray(30000);
+}
+
+$arr = getArr();
+$lastIndex = count($arr) - 1;
+
+printArray($arr);
+
+
+function _randArray($count = 1000, $minRand = 1, $maxRand = 3000)
+{
+    if ($count != 1000 && $count > $maxRand - $minRand) {
+        $minRand = 1;
+        $maxRand = $count * 3;
+    }
+    $myArray = [];
+    for ($i = 0; $i < $count; $i++) {
+        $num = mt_rand($minRand, $maxRand);
+        $myArray[] = $num;
+    }
+    return $myArray;
+}
+
+function printArray(&$arr)
+{
+    $countArr = count($arr);
+    for ($i = 0; $i < $countArr; ++$i) {
+        echo($arr[$i] . " ");
+    }
+
+}
